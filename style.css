@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #00adb5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects {
+    background: white;
+}
+
+.project-card {
+    background: #111;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.demo-btn, .code-btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.demo-btn {
+    background-color: #ff4b4b;
+    color: white;
+}
+
+.code-btn {
+    background-color: #333;
+    color: white;
+}
+
+/* Skills */
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact {
+    background: #141e30;
+    color: white;
+}
+.project-card {
+    background: #111;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.project-img {
+    width: 460px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.project-buttons {
+    margin-top: 15px;
+}
+
+.demo-btn, .code-btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.demo-btn {
+    background-color: #ff4b4b;
+    color: white;
+}
+
+.demo-btn:hover {
+    background-color: #e63b3b;
+}
+
+.code-btn {
+    background-color: #333;
+    color: white;
+}
+
+.code-btn:hover {
+    background-color: #555;
+}

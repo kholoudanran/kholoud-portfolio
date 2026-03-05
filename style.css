@@ -115,7 +115,7 @@ section {
 }
 
 .project-img {
-    width: 100%;
+    width: 50%;
     max-width: 460px;
     height: auto;
     border-radius: 12px;
@@ -294,3 +294,4 @@ section {
         padding: 6px 15px;
     }
 }
+

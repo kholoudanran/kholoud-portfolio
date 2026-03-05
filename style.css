@@ -13,36 +13,14 @@ body {
 
 /* Hero */
 .hero {
-    min-height: 100vh;
-    height: auto;
+    height: 100vh;
     background: linear-gradient(to right, #141e30, #243b55);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 80px 20px;
-}
-
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.hero-text {
-    flex: 1;
-    text-align: left;
-}
-
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+    padding: 0 20px;
 }
 
 .hero h1 {
@@ -52,15 +30,6 @@ body {
 .hero p {
     margin: 20px 0;
     font-size: clamp(1rem, 3vw, 1.2rem);
-}
-
-.profile-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #00adb5;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 .btn {
@@ -115,8 +84,8 @@ section {
 }
 
 .project-img {
-    width: 50%;
-    max-width: 360px;
+    width: 500%;
+    max-width: 260px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -202,35 +171,9 @@ section {
 }
 
 /* Mobile Responsive */
-@media (max-width: 968px) {
-    .hero-content {
-        gap: 30px;
-    }
-    
-    .profile-img {
-        width: 250px;
-        height: 250px;
-    }
-}
-
 @media (max-width: 768px) {
     .hero {
-        padding: 60px 15px;
-    }
-    
-    .hero-content {
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 30px;
-    }
-    
-    .hero-text {
-        text-align: center;
-    }
-    
-    .profile-img {
-        width: 200px;
-        height: 200px;
+        padding: 0 15px;
     }
     
     .project-card {
@@ -263,22 +206,8 @@ section {
         padding: 40px 15px;
     }
     
-    .hero {
-        padding: 40px 15px;
-    }
-    
-    .profile-img {
-        width: 150px;
-        height: 150px;
-        border-width: 3px;
-    }
-    
     .project-card {
         padding: 15px;
-    }
-    
-    .project-img {
-        max-width: 100%;
     }
     
     .project-buttons {
@@ -294,5 +223,3 @@ section {
         padding: 6px 15px;
     }
 }
-
-
